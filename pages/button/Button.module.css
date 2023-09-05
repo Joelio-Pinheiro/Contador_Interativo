@@ -1,0 +1,30 @@
+.botao {
+  width: 90px;
+  height: 90px;
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #e1e1e1;
+  font-size: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 2.5px 5px 0 rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 2.5px 3px 0 rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.77);
+  transition: box-shadow 0.05s ease;
+  transition: background-color 0.05s ease;
+  transition: transform 0.1s ease;
+  transition: all 0.3s;
+}
+
+.botao:active {
+  box-shadow: 0 0 0;
+  opacity: 0.5;
+  width: 85px;
+  height: 85px;
+}
+
+.botao:hover:focus {
+  transform: translateY(0);
+}
